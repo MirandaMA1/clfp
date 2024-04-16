@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charles Leclerc Fan Page</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Animación */
+        @keyframes movePattern {
+            0% {
+                transform: translateX(0);
+            }
+            25% {
+                transform: translateY(-20px);
+            }
+            50% {
+                transform: translateX(100px);
+            }
+            75% {
+                transform: translateY(20px);
+            }
+            100% {
+                transform: translateX(0);
+            }
+        }
+
+        /* Imagen de Charles Leclerc */
+        .charles-image {
+            width: 100%;
+            max-width: 400px;
+            display: block;
+            margin: 0 auto;
+            animation: movePattern 5s infinite alternate;
+        }
+    </style>
+</head>
+<body style="background-color:rgb(56, 3, 3);"></body>
+    <div class="container">
+        <h1>Charles Leclerc Fan Page</h1>
+        <img src="./assets/lec.jpg" alt="Charles Leclerc" class="charles-image">
+        <br>
+        <p>¡Bienvenido a la página de fans de Charles Leclerc! Aquí encontrarás información sobre su carrera en la Fórmula 1 y sus logros.</p>
+    </div>
+</body>
+</html>
